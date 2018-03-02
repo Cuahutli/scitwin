@@ -1,2 +1,2 @@
 from .scitwin import *
-from .traynotification import WindowsBalloonTip
+from .traynotification import TrayNotification

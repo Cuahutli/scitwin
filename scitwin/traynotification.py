@@ -5,7 +5,7 @@ import sys, os
 import struct
 import time
 
-class WindowsBalloonTip:
+class TrayNotification:
     def __init__(self, title, msg, timeout=10, icon=None):
         message_map = {
                 win32con.WM_DESTROY: self.OnDestroy,
